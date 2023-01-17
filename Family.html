@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <style>
+     .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table-column-group;
+    }
+    </style>
+    </head>
+    <body>
+
+<title>Family</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times;
+}
+
+/* Style the header */
+header {
+  background-color: pink;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Style the footer */
+footer {
+  background-color: pink;
+  padding: 50px;
+  text-align: justify;
+  color: rgb(74, 39, 39);
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body style="background-color:powderblue;">
+
+  <br>
+  <br>
+
+<header>
+  <h3 style="color: grey;">My Family</h3>
+    <div class="column">
+      <img src="images/family.jpg" alt="family" style="width:80%">
+    </div>
+
+    <center>
+      <p style="font-size: large;">This is my beloved family, who are always there when I need them, and they have always given me encouragement from childhood until now.
+        My father's name is Saripuddin Bin Mama, he is 49 years old and my mother's name is Rashidah Binti Mohd Said, she is 48 years old.</p>
+       </center>
+
+    <div class="column">
+      <img src="images/siblings 1.jpg" alt="siblings 1" style="width:70%">
+    </div>
+
+    <center>
+      <p style="font-size: large;"> I have 4 siblings, one sister, and two younger brothers. My sister's name is Shahirah Rajiha Binti 
+        Saripuddin, she is 21 years old. Now, my sister is studying at UiTM Seremban and is in semester 4.</p>
+       </center>
+       
+  <div class="column">
+    <img src="images/siblings 2.jpg" alt="siblings 2" style="width:80%">
+  </div>
+</header>
+
+<br>
+<br>
+<center>
+  <button class="btn"><a href="Gallery.html"> go to gallery</a></button>
+  </center>
+  <br
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head> 
+    <style>
+    body {
+      background-image: url('images/img_building.jpg');
+      background-repeat: no-repeat;
+      background-attachment:local;  
+      background-size: cover;
+    } 
+    </style>
+    
+    <title>Experience</title>
+    <meta name="viewport" content="width"=device-width, initial-
+    scale=1.0">
+    <link rel="stylesheet" href="experience.css">
+</head>
+<body>
+    <center>
+      <p> &nbsp; </p>
+      <p> &nbsp; </p>
+      <img src="images/petronas.jpg" alt="petronas" width="500px">
+      <p> &nbsp; </p>
+      <p> &nbsp; </p>
+      <div style="color: rgb(255, 140, 0);" class="text"><p style="text-align: justify;"><br> October 2020, I worked at the Petronas gas station, which is 5 minutes by car from my house. After finishing school, I started
+my part-time job as a cashier at a Petronas gas station. I got a lot of experience from having friends of different ages, even though my 
+new friends are older than me, I got a lot of experience from them. In addition, I was able to learn new things, such as counting stock,
+riding an oil tanker, and dipping oil three times a day to ensure that the oil level is sufficient and does not get into the water. I quit
+my job in the middle of March 2021 because I want to continue my studies at UiTM Merbok, Kedah.<br></div></p>
+    </center>
+</body>
+</html> 
+
+<p> &nbsp; </p>
+<p> &nbsp; </p>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: text-bottom;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: sticky;
+  top: 50%;
+  width: 50px;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+  <center>
+<div class="slideshow-container">
+
+<div class="mySlides fade" >
+  <img src="images/ponde 1.jpg" style="width:250pt" class="numbertext">
+  <div style="color: bisque;" class="text" >Photos with my cousin</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/ponde 2.jpg" style="width:400pt">
+  <div style="color: bisque;" class="text">Malaysian students taking a photo in front of office Yayasan Pondok Pesantren 
+Minhaajurrosyidiin (PONPES)</div>
+</div>
+</p>
+
+<div class="mySlides fade">
+  <img src="images/ponde 3.jpg" style="width:400pt">
+  <div style="color: bisque;" class="text">Malaysian students take pictures during Hari Raya Aidilfitri</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/ponde 4.jpg" style="width:400pt">
+  <div style="color: bisque;" class="text">Malaysian students taking a photo in front of joglo Pondok Pesantren Minhaajurrosyidiin
+(PONPES)</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="images/ponde 5.jpg" style="width:400pt">
+  <div style="color: bisque;" class="text">Malaysian students take photos next to the mosque section of the Minhaajurrosyidiin Boarding
+School (PONPES)</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+</center>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+<center>
+  <p> &nbsp; </p>
+      <p> &nbsp; </p>
+      <div style="color: rgb(255, 140, 0);" class="text"><p style="text-align:justify">At the end of 2019, my cousin and I went to study at Yayasan Pondok Pesantren Minhaajurrosyidiin 
+(PONPES) Jakarta, Indonesia. I gained a lot of experience while there. Among them, I made new friends of different ages and was able to 
+learn about their culture. I was also able to try different types of food in Indonesia. In 2020, we didn't go back to Malaysia because we 
+wanted to feel the Eid al-Fitr atmosphere in Jakarta, but it turned out to be different from Malaysia. In terms of their food, clothing, 
+and customs.</div></p>
+
+<br>
+<br>
+    <button class="btn"><a href="Education.html"> go to education</a></button>
+    </center>
+    <br>
+      
+</body>
+</html> 
